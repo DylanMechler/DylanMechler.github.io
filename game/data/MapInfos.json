@@ -18,5 +18,5 @@ null,
 {"id":16,"expanded":true,"name":"Atown","order":16,"parentId":0,"scrollX":1390.2857142857142,"scrollY":791.1428571428571,"quick":false},
 {"id":17,"expanded":false,"name":"bpassnight","order":18,"parentId":0,"scrollX":811,"scrollY":461.5,"quick":false},
 {"id":18,"expanded":false,"name":"bpasssunset","order":19,"parentId":0,"scrollX":811,"scrollY":461.5,"quick":false},
-{"id":19,"expanded":false,"name":"thecasino","order":17,"parentId":16,"scrollX":816,"scrollY":800,"quick":false}
+{"id":19,"expanded":false,"name":"thecasino","order":17,"parentId":16,"scrollX":801,"scrollY":452.25,"quick":false}
 ]
