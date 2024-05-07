@@ -14,7 +14,7 @@
             background-color: forestgreen;
             text-align: center;
             margin: auto;
-            width: 70%;
+            width: 60%;
             border-radius: 4px;
         }
 
@@ -24,30 +24,50 @@
             background-color: limegreen;
             padding: 10px;
             box-shadow: 3px 3px 1px black;
+            width: 40%;
         }
 
         #smallContainer {
+            display: flex;
             width: 90%;
             margin: auto;
         }
 
         #bigContainer {
-            display: flex;
             background-color: green;
             border-radius: 4px;
+            padding: 10px;
         }
 
         .bigBox {
             border: 2px solid black;
             background-color: limegreen;
-            margin: 10px;
+            margin: auto;
             padding: 10px;
-            width: 10%;
+            width: 30%;
             box-shadow: 3px 3px 1px black;
         }
 
         h1 {
             margin: 10px;
+        }
+
+        #imgSkyrim {
+            height: 192px;
+        }
+
+        #imgHtml {
+            width: 400px;
+        }
+
+        #box1 {
+            margin-left: auto;
+            margin-right: 0px;
+        }
+
+        #box2 {
+            margin-left: 0px;
+            margin-right: auto;
         }
     </style>
 </head>
@@ -62,16 +82,19 @@
                 <li><a href="game.html">Game</a></li>
             </div>
             <div id="smallContainer">
-                <div id="aboutWebsite" class="smallBox">
+                <div id="box1" class="smallBox">
                     <h2>About My Website</h2>
                     <p>This website was created as a final for my programming class, it is also used to contain my game
                         for it to be played.</p>
+                        <img src="https://austingil.com/wp-content/uploads/HTML-Blog-Cover.png" id="imgHtml">
                 </div>
-                <div id="aboutMe" class="smallBox">
+                <div id="box2" class="smallBox">
                     <h2>About Me</h2>
                     <p>I am currently a student at a technical high school where I am learning about IT, this is the
                         first finished website that I have made and the website also contains the first game that I have
-                        made. I also like to play a wide variety of video games.</p>
+                        made. I also like to play a wide variety of video games such as Skyrim, Oblivion and Fallout New
+                        Vegas.</p>
+                    <img src="data:image/jpeg;base64,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" id="imgSkyrim">
                 </div>
             </div>
         </div>
